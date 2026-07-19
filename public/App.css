@@ -1,0 +1,239 @@
+body * {
+  font-family: "Roboto", serif !important;
+}
+
+body {
+  width: auto;
+  margin: 0px auto;
+  overflow-x: hidden;
+}
+
+.text-bold {
+  font-weight: 900;
+}
+
+/* utility */
+.center {
+  text-align: center;
+}
+
+.gutter-bottom {
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  color: #0a426a;
+}
+
+.prize {
+  width: 100px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+/* restu ?????????? */
+#logo {
+  height: 50px;
+  margin-top: 20px;
+}
+
+#ribbon {
+  height: 90px;
+  width: 100vw;
+  /* background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(7px); */
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: left;
+  /*Mult mai ok asa decat centrat*/
+  display: block;
+  z-index: 2;
+}
+
+img.persoana-echipa {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.nume-pers {
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+#data {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  margin-top: 32vh;
+}
+
+#data-inscrieri {
+  background: url(background2.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.star {
+  font-size: 100px;
+  margin: 0px;
+  line-height: 60px;
+  margin-left: -10px;
+  /* aia e */
+}
+
+.wrapper {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 100vh;
+  width: 90%;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-size: 17px;
+}
+
+h4,
+h3,
+h2,
+h1 {
+  font-weight: 900;
+}
+
+#proiectul {
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
+
+#proiectul p {
+  font-size: 20px;
+}
+
+#proiectul h2 {
+  padding-top: 50px;
+}
+
+#management-proiect {
+  margin-bottom: 50px;
+  padding-top: 140px;
+}
+
+.sectiuni {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.texte {
+  background: #fff;
+  color: #222;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.poza-eveniment {
+  width: 100px;
+}
+
+.placeholder-img {
+  width: 100px;
+  height: 100px;
+  background: url(http://goo.gl/vyAs27) no-repeat scroll 0 0;
+}
+
+::-moz-selection {
+  background: rgba(73, 122, 127, 0.6);
+  color: white;
+}
+
+::selection {
+  background: rgba(73, 122, 127, 0.6);
+  color: white;
+}
+
+.om {
+  font-size: 18px;
+  padding: 20px;
+  color: rgba(0, 0, 0, 0.65);
+  font-weight: 500;
+  text-align: center;
+}
+
+.om img {
+  margin-bottom: 25px;
+}
+
+.om h4 {
+  color: black;
+}
+
+.premii {
+  margin-bottom: 35px;
+}
+
+#sectiuni-tot {
+  padding-top: 140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  background-color: #303030;
+  color: white;
+  padding: 3px;
+  padding-top: 20px;
+  width: auto;
+  background: rgba(59, 59, 59, 0.9);
+}
+
+footer p {
+  color: #fff;
+}
+
+footer .container {
+  margin: auto;
+  width: auto;
+  padding: 0px;
+}
+
+.logo-social:hover {
+  opacity: 50%;
+}
+
+.logo-social {
+  width: 50px;
+}
+
+.icon-detalii {
+  width: 20px;
+}
+
+li {
+  color: violet;
+  text-decoration: none;
+}
+
+li::-moz-selection {
+  color: white;
+}
+
+li::selection {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#email-proiect {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=App.css.map */
